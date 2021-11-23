@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Caveat', cursive;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  overflow: hidden;
+  margin: 0;
+
+  color: white;
+  background-color: #e5e5e5;
+}
+
+.container {
+  padding: 50px;
+
+  height: 400px;
+
+  background-image: url("https://krot.mobi/uploads/posts/2021-02/1614086515_37-p-fon-shkolnaya-doska-s-melom-41.png");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: 50% 50%;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.wrap {
+  height: 80%;
+}
+
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+}
+
+.item {
+  width: 120px;
+  min-height: 40px;
+  padding: 0.8rem 1rem;
+  margin: 10px auto;
+
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 10px;
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  border-radius: 20px;
+  border: 2px dotted transparent;
+}
+
+.start {
+  background: linear-gradient(to top left, black, forestgreen, black);
+}
+
+.progress {
+  background: linear-gradient(to top left, black, darkred, black);
+}
+
+.done {
+  background: linear-gradient(to top left, black, #d2c61d, black);
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.target-place {
+  border: 2px dotted yellow;
+  border-radius: 10px;
+}

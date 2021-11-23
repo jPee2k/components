@@ -1,0 +1,21 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jPee2k/components.git"
+  },
+  "keywords": [],
+  "author": "jPee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jPee2k/components/issues"
+  },
+  "homepage": "https://github.com/jPee2k/components#readme",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.2"
+  }
+}
